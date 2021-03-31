@@ -8,6 +8,9 @@ const Testimonials = ({ data }) => {
           <blockquote>
             <p>{testimonials.text}</p>
             <cite>{testimonials.user}</cite>
+            <pre style={{ fontSize: "12px" }}>
+              &nbsp;&nbsp;({testimonials.occupation})
+            </pre>
           </blockquote>
         </li>
       );

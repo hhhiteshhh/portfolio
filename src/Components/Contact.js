@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-const Contact = ({ data }) => {
+function Contact({ data }) {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -26,7 +26,6 @@ const Contact = ({ data }) => {
       )}): ${encodeURIComponent(message)}`
     );
   };
-
   return (
     <section id="contact">
       <div className="row section-head">
@@ -110,7 +109,7 @@ const Contact = ({ data }) => {
             </fieldset>
           </form>
 
-          <div id="message-warning"> Error boy</div>
+          <div id="message-warning">Error boy</div>
           <div id="message-success">
             <i className="fa fa-check"></i>Your message was sent, thank you!
             <br />
@@ -136,6 +135,6 @@ const Contact = ({ data }) => {
       </div>
     </section>
   );
-};
+}
 
 export default Contact;
