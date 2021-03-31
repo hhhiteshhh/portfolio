@@ -69,6 +69,11 @@
         "name": "JavaScript",
         "level": "85%"
       },
+      
+      {
+        "name": "NextJs",
+        "level": "15%"
+      },
       {
         "name": "Web Development",
         "level": "95%"
@@ -98,6 +103,11 @@
         "category": "",
         "image": "logo.png",
         "url": "https://step-out-hs.web.app/"
+      },      {
+        "title": "Whatsapp (Next JS)",
+        "category": "",
+        "image": "whatsapp.png",
+        "url": "https://whatsapp-next-js.vercel.app/"
       }
 
     ]
