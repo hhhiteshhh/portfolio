@@ -94,21 +94,36 @@
         "url": "https://amz--cln-2367b.web.app/"
       },
       {
-        "title": "Birthday Gift",
+        "title": "Birthday Gift (React JS)",
         "category": "",
         "image": "birthday.jpg",
         "url": "https://pakhi--b-day.web.app/"
-      },      {
-        "title": "Step Out",
+      },     
+       {
+        "title": "Step Out (React JS)",
         "category": "",
         "image": "logo.png",
         "url": "https://step-out-hs.web.app/"
-      },      {
+      },
+            {
         "title": "Whatsapp (Next JS)",
         "category": "",
         "image": "whatsapp.png",
         "url": "https://whatsapp-next-js.vercel.app/"
+      },
+            {
+        "title": "Disney Clone (React JS)",
+        "category": "",
+        "image": "disney.jpg",
+        "url": "https://disney-plus-bbd32.web.app/"
+      },
+      {
+        "title": "LinkedIn Clone (React JS)",
+        "category": "",
+        "image": "linkedin.png",
+        "url": "https://linkedin-32d8a.web.app/"
       }
+
 
     ]
   },
